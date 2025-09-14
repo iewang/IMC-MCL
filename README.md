@@ -25,10 +25,17 @@ python run.py --dataset 0 --devices 0 --print_num 100 --test_time 5
 ## Files
 
 run.py: This file is the main program of the code.
+
 datasets.py: The purpose of this file is to processing data.
+
 util.py: The purpose of this file is to initialize logs, normalize processing, and construct batch.
+
 get_mask.py: The purpose of this file is to obtain three views of the incomplete data.
+
 reloss.py: The purpose of this file is to calculate the loss.
+
 model.py: The purpose of this file is to obtain our entire model.
+
 configure.py: The purpose of this file is to set the parameters for each dataset.
+
 metric.py: The purpose of this file is to obtain the ACC, ARI and AMI.
